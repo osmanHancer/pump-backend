@@ -27,6 +27,7 @@ export class PumpService {
       TemperatureEnvironment: Number(rawData[5]) || 0,
       Switch: Number(rawData[6]) || 0,
       DateTime: String(rawData[7]) || new Date().toISOString(),
+      timestamp: new Date()
     };
 
     // Add to store

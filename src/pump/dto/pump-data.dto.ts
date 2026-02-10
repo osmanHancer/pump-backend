@@ -18,5 +18,6 @@ export interface SensorData {
   TemperatureEnvironment: number;
   Switch: number;
   DateTime: string;
+  timestamp: Date;
 }
 
