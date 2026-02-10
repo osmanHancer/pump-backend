@@ -3,7 +3,7 @@ import express from 'express';
 import { PumpService } from './pump.service';
 import { SensorData } from './dto/pump-data.dto';
 
-@Controller('pump')
+@Controller()
 export class PumpController {
   constructor(private readonly pumpService: PumpService) {}
 
